@@ -20,7 +20,7 @@ public class Reusableclass {
 	}
 
 
-	public static void Clickmethod(WebElement A, String Name) {
+	public static void Clickmethod(WebElement A, String Name) { 
 		if (A.isEnabled()) {
 			A.click();
 			System.out.println("Pass:"+ "Field" +Name);

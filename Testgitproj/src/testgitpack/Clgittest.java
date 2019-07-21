@@ -18,7 +18,7 @@ public class Clgittest extends Reusableclass{
 		WebElement variablename=driver.findElement(By.xpath("//input[@id='username']"));
 //		userName.sendKeys("Kruthiroshinie-mxpr@force.com");
 		
-		enterText(variablename, "Kruthiroshinie-mxpr@force.com", "field User Name" );
+		enterText(variablename, "Kruthiroshinie-mxpr@force.com", "field User Name" ); 
 		
 		WebElement password=driver.findElement(By.xpath("//input[@id='password']"));
 //		if(password.isEnabled()) {
